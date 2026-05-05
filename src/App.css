@@ -5,6 +5,10 @@
   display: flex;
   flex-direction: column;
   height: 90vh;
+  background: linear-gradient(to bottom, #87CEEB, #98FB98), url('public/rinjani.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
  
 .header {
@@ -14,12 +18,17 @@
 }
  
 .header h1 {
-  color: #1a73e8;
+  color: #228B22;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 2px white, 0 0 4px white;
+  font-family: 'Cosmic', sans-serif;
 }
+
  
 .clear-btn {
   padding: 0.5rem 1rem;
-  background: #ef4444;
+  background: #8B4513;
   color: white;
   border: none;
   border-radius: 8px;
@@ -33,7 +42,7 @@
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 1rem;
-  background: #f9f9f9;
+  background: #F0FFF0;
 }
  
 .message {
@@ -45,18 +54,18 @@
 }
  
 .message.user {
-  background: #1a73e8;
+  background: #32CD32;
   color: white;
   margin-left: auto;
 }
  
 .message.model {
-  background: #e8e8e8;
+  background: #F5F5DC;
   color: #333;
 }
  
 .message.welcome {
-  background: #dbeafe;
+  background: #E0FFFF;
   border: 1px solid #93c5fd;
 }
  
@@ -73,14 +82,14 @@
 .chat-input input {
   flex: 1;
   padding: 0.75rem 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid #228B22;
   border-radius: 8px;
   font-size: 1rem;
 }
  
 .chat-input button {
   padding: 0.75rem 1.5rem;
-  background: #1a73e8;
+  background: #228B22;
   color: white;
   border: none;
   border-radius: 8px;
